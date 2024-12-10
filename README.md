@@ -1,10 +1,20 @@
 # EvePIConverter
 Simple(ish) Script that Converts an Extraction planet between PlanetTypes. Created with the Help of GitHub CoPilot
 
+## What it Does
+
+- Takes a Supplied Template (Use mine or choose your own)
+- Offers to change the planet Type for the Template
+- If Changing Planet Type (or staying the same even), gives you the available Single Planet Production Types, and allows you to update Pins + Routes based on your selection
+- You can now import the new Json into game, to apply your Initial Extraction Template to additional Planets 
+
+
+
 ## Process
 
 - Update Sample.json with the export from your PI Template. 
 - Run Process.ps1
+- Choose 
 - NewSample.json will be created with changes as you have configured
 
 
