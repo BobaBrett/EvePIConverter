@@ -1,5 +1,5 @@
 # EvePIConverter
-Simple(ish) Script that Converts an Extraction planet between PlanetTypes
+Simple(ish) Script that Converts an Extraction planet between PlanetTypes. Created with the Help of GitHub CoPilot
 
 ## Process
 
