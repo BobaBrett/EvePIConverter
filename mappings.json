@@ -1,0 +1,806 @@
+{
+    "pins": {
+        "2469": {
+            "groupId": 1028,
+            "description": "Lava Basic Industry Facility",
+            "planetType": "2015",
+            "tier": "Basic"
+        },
+        "2470": {
+            "groupId": 1028,
+            "description": "Lava Advanced Industry Facility",
+            "planetType": "2015",
+            "tier": "Advanced"
+        },
+        "2471": {
+            "groupId": 1028,
+            "description": "Plasma Basic Industry Facility",
+            "planetType": "2063",
+            "tier": "Basic"
+        },
+        "2472": {
+            "groupId": 1028,
+            "description": "Plasma Advanced Industry Facility",
+            "planetType": "2063",
+            "tier": "Advanced"
+        },
+        "2473": {
+            "groupId": 1028,
+            "description": "Barren Basic Industry Facility",
+            "planetType": "2016",
+            "tier": "Basic"
+        },
+        "2474": {
+            "groupId": 1028,
+            "description": "Barren Advanced Industry Facility",
+            "planetType": "2016",
+            "tier": "Advanced"
+        },
+        "2475": {
+            "groupId": 1028,
+            "description": "Barren High-Tech Production Plant",
+            "planetType": "2016",
+            "tier": "High-Tech"
+        },
+        "2480": {
+            "groupId": 1028,
+            "description": "Temperate Advanced Industry Facility",
+            "planetType": "11",
+            "tier": "Advanced"
+        },
+        "2481": {
+            "groupId": 1028,
+            "description": "Temperate Basic Industry Facility",
+            "planetType": "11",
+            "tier": "Basic"
+        },
+        "2482": {
+            "groupId": 1028,
+            "description": "Temperate High-Tech Production Plant",
+            "planetType": "11",
+            "tier": "High-Tech"
+        },
+        "2483": {
+            "groupId": 1028,
+            "description": "Storm Basic Industry Facility",
+            "planetType": "2017",
+            "tier": "Basic"
+        },
+        "2484": {
+            "groupId": 1028,
+            "description": "Storm Advanced Industry Facility",
+            "planetType": "2017",
+            "tier": "Advanced"
+        },
+        "2485": {
+            "groupId": 1028,
+            "description": "Oceanic Advanced Industry Facility",
+            "planetType": "2014",
+            "tier": "Advanced"
+        },
+        "2848": {
+            "groupId": 1063,
+            "description": "Barren Extractor Control Unit",
+            "planetType": "2016",
+            "tier": "Extractor"
+        },
+        "3060": {
+            "groupId": 1063,
+            "description": "Gas Extractor Control Unit",
+            "planetType": "13",
+            "tier": "Extractor"
+        },
+        "3061": {
+            "groupId": 1063,
+            "description": "Ice Extractor Control Unit",
+            "planetType": "12",
+            "tier": "Extractor"
+        },
+        "3062": {
+            "groupId": 1063,
+            "description": "Lava Extractor Control Unit",
+            "planetType": "2015",
+            "tier": "Extractor"
+        },
+        "3063": {
+            "groupId": 1063,
+            "description": "Oceanic Extractor Control Unit",
+            "planetType": "2014",
+            "tier": "Extractor"
+        },
+        "3064": {
+            "groupId": 1063,
+            "description": "Plasma Extractor Control Unit",
+            "planetType": "2063",
+            "tier": "Extractor"
+        },
+        "3067": {
+            "groupId": 1063,
+            "description": "Storm Extractor Control Unit",
+            "planetType": "2017",
+            "tier": "Extractor"
+        },
+        "3068": {
+            "groupId": 1063,
+            "description": "Temperate Extractor Control Unit",
+            "planetType": "11",
+            "tier": "Extractor"
+        },
+        "2490": {
+            "groupId": 1028,
+            "description": "Oceanic Basic Industry Facility",
+            "planetType": "2014",
+            "tier": "Basic"
+        },
+        "2491": {
+            "groupId": 1028,
+            "description": "Ice Advanced Industry Facility",
+            "planetType": "12",
+            "tier": "Advanced"
+        },
+        "2492": {
+            "groupId": 1028,
+            "description": "Gas Basic Industry Facility",
+            "planetType": "13",
+            "tier": "Basic"
+        },
+        "2493": {
+            "groupId": 1028,
+            "description": "Ice Basic Industry Facility",
+            "planetType": "12",
+            "tier": "Basic"
+        },
+        "2494": {
+            "groupId": 1028,
+            "description": "Gas Advanced Industry Facility",
+            "planetType": "13",
+            "tier": "Advanced"
+        },
+        "2256": {
+            "groupId": 1030,
+            "description": "Temperate Launchpad",
+            "planetType": "11",
+            "tier": "Launchpad"
+        },
+        "2542": {
+            "groupId": 1030,
+            "description": "Oceanic Launchpad",
+            "planetType": "2014",
+            "tier": "Launchpad"
+        },
+        "2543": {
+            "groupId": 1030,
+            "description": "Gas Launchpad",
+            "planetType": "13",
+            "tier": "Launchpad"
+        },
+        "2544": {
+            "groupId": 1030,
+            "description": "Barren Launchpad",
+            "planetType": "2016",
+            "tier": "Launchpad"
+        },
+        "2552": {
+            "groupId": 1030,
+            "description": "Ice Launchpad",
+            "planetType": "12",
+            "tier": "Launchpad"
+        },
+        "2555": {
+            "groupId": 1030,
+            "description": "Lava Launchpad",
+            "planetType": "2015",
+            "tier": "Launchpad"
+        },
+        "2556": {
+            "groupId": 1030,
+            "description": "Plasma Launchpad",
+            "planetType": "2063",
+            "tier": "Launchpad"
+        },
+        "2557": {
+            "groupId": 1030,
+            "description": "Storm Launchpad",
+            "planetType": "2017",
+            "tier": "Launchpad"
+        }
+    },
+    "Planets": {
+        "11": {
+            "name": "Planet (Temperate)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2305",
+                "2288",
+                "2287",
+                "2073"
+            ],
+            "products": {
+                "basic": [
+                    "3693",
+                    "3725",
+                    "3695",
+                    "2319"
+                ],
+                "advanced": [
+                    "2360"
+                ]
+            }
+        },
+        "12": {
+            "name": "Planet (Ice)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2272",
+                "2073",
+                "2310",
+                "2286"
+            ],
+            "products": {
+                "basic": [
+                    "2312",
+                    "2319",
+                    "3775"
+                ],
+                "advanced": [
+                    "2346"
+                ]
+            }
+        },
+        "13": {
+            "name": "Planet (Gas)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2267",
+                "2309",
+                "2310",
+                "2311"
+            ],
+            "products": {
+                "basic": [
+                    "2327",
+                    "2317",
+                    "3691",
+                    "2328"
+                ],
+                "advanced": [
+                    "2344"
+                ]
+            }
+        },
+        "2014": {
+            "name": "Planet (Oceanic)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2288",
+                "2287",
+                "2073",
+                "2286"
+            ],
+            "products": {
+                "basic": [
+                    "3693",
+                    "15317",
+                    "3725",
+                    "2319",
+                    "3775"
+                ],
+                "advanced": [
+                    "28974"
+                ]
+            }
+        },
+        "2015": {
+            "name": "Planet (Lava)",
+            "category": 7,
+            "resources": [
+                "2267",
+                "2307",
+                "2272",
+                "2306",
+                "2308"
+            ],
+            "products": {
+                "basic": [
+                    "3828",
+                    "9832",
+                    "9836",
+                    "9840"
+                ],
+                "advanced": [
+                    "2351"
+                ]
+            }
+        },
+        "2016": {
+            "name": "Planet (Barren)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2267",
+                "2288",
+                "2073",
+                "2270"
+            ],
+            "products": {
+                "basic": [
+                    "2329",
+                    "3689",
+                    "2463",
+                    "2319",
+                    "2328"
+                ],
+                "advanced": [
+                    "12836"
+                ]
+            }
+        },
+        "2017": {
+            "name": "Planet (Storm)",
+            "category": 7,
+            "resources": [
+                "2268",
+                "2267",
+                "2309",
+                "2310",
+                "2308"
+            ],
+            "products": {
+                "basic": [
+                    "2327",
+                    "9830",
+                    "9838",
+                    "3691",
+                    "2328"
+                ],
+                "advanced": [
+                    "17136"
+                ]
+            }
+        },
+        "2063": {
+            "name": "Planet (Plasma)",
+            "category": 7,
+            "resources": [
+                "2267",
+                "2272",
+                "2270",
+                "2306",
+                "2308"
+            ],
+            "products": {
+                "basic": [
+                    "3828",
+                    "9832",
+                    "44",
+                    "3689",
+                    "9840"
+                ],
+                "advanced": [
+                    "9848"
+                ]
+            }
+        }
+    },
+    "materials": {
+        "2268": {
+            "groupId": 1033,
+            "description": "Aqueous Liquids",
+            "type": "P0"
+        },
+        "2308": {
+            "groupId": 1033,
+            "description": "Suspended Plasma",
+            "type": "P0"
+        },
+        "2309": {
+            "groupId": 1033,
+            "description": "Ionic Solutions",
+            "type": "P0"
+        },
+        "2310": {
+            "groupId": 1033,
+            "description": "Noble Gas",
+            "type": "P0"
+        },
+        "2311": {
+            "groupId": 1033,
+            "description": "Reactive Gas",
+            "type": "P0"
+        },
+        "2073": {
+            "groupId": 1035,
+            "description": "Microorganisms",
+            "type": "P0"
+        },
+        "2286": {
+            "groupId": 1035,
+            "description": "Planktic Colonies",
+            "type": "P0"
+        },
+        "2287": {
+            "groupId": 1035,
+            "description": "Complex Organisms",
+            "type": "P0"
+        },
+        "2288": {
+            "groupId": 1035,
+            "description": "Carbon Compounds",
+            "type": "P0"
+        },
+        "2305": {
+            "groupId": 1035,
+            "description": "Autotrophs",
+            "type": "P0"
+        },
+        "2267": {
+            "groupId": 1032,
+            "description": "Base Metals",
+            "type": "P0"
+        },
+        "2270": {
+            "groupId": 1032,
+            "description": "Noble Metals",
+            "type": "P0"
+        },
+        "2272": {
+            "groupId": 1032,
+            "description": "Heavy Metals",
+            "type": "P0"
+        },
+        "2306": {
+            "groupId": 1032,
+            "description": "Non-CS Crystals",
+            "type": "P0"
+        },
+        "2307": {
+            "groupId": 1032,
+            "description": "Felsic Magma",
+            "type": "P0"
+        },
+        "2389": {
+            "groupId": 1042,
+            "description": "Plasmoids",
+            "type": "P1"
+        },
+        "2390": {
+            "groupId": 1042,
+            "description": "Electrolytes",
+            "type": "P1"
+        },
+        "2392": {
+            "groupId": 1042,
+            "description": "Oxidizing Compound",
+            "type": "P1"
+        },
+        "2393": {
+            "groupId": 1042,
+            "description": "Bacteria",
+            "type": "P1"
+        },
+        "2395": {
+            "groupId": 1042,
+            "description": "Proteins",
+            "type": "P1"
+        },
+        "2396": {
+            "groupId": 1042,
+            "description": "Biofuels",
+            "type": "P1"
+        },
+        "2397": {
+            "groupId": 1042,
+            "description": "Industrial Fibers",
+            "type": "P1"
+        },
+        "2398": {
+            "groupId": 1042,
+            "description": "Reactive Metals",
+            "type": "P1"
+        },
+        "2399": {
+            "groupId": 1042,
+            "description": "Precious Metals",
+            "type": "P1"
+        },
+        "2400": {
+            "groupId": 1042,
+            "description": "Toxic Metals",
+            "type": "P1"
+        },
+        "2401": {
+            "groupId": 1042,
+            "description": "Chiral Structures",
+            "type": "P1"
+        },
+        "3645": {
+            "groupId": 1042,
+            "description": "Water",
+            "type": "P1"
+        },
+        "3683": {
+            "groupId": 1042,
+            "description": "Oxygen",
+            "type": "P1"
+        },
+        "3779": {
+            "groupId": 1042,
+            "description": "Biomass",
+            "type": "P1"
+        },
+        "9828": {
+            "groupId": 1042,
+            "description": "Silicon",
+            "type": "P1"
+        },
+        "44": {
+            "groupId": 1034,
+            "Description": "Enriched Uranium",
+            "type": "P2"
+        },
+        "2312": {
+            "groupId": 1034,
+            "Description": "Supertensile Plastics",
+            "type": "P2"
+        },
+        "2317": {
+            "groupId": 1034,
+            "Description": "Oxides",
+            "type": "P2"
+        },
+        "2319": {
+            "groupId": 1034,
+            "Description": "Test Cultures",
+            "type": "P2"
+        },
+        "2321": {
+            "groupId": 1034,
+            "Description": "Polyaramids",
+            "type": "P2"
+        },
+        "2327": {
+            "groupId": 1034,
+            "Description": "Microfiber Shielding",
+            "type": "P2"
+        },
+        "2328": {
+            "groupId": 1034,
+            "Description": "Water-Cooled CPU",
+            "type": "P2"
+        },
+        "2329": {
+            "groupId": 1034,
+            "Description": "Biocells",
+            "type": "P2"
+        },
+        "2463": {
+            "groupId": 1034,
+            "Description": "Nanites",
+            "type": "P2"
+        },
+        "3689": {
+            "groupId": 1034,
+            "Description": "Mechanical Parts",
+            "type": "P2"
+        },
+        "3691": {
+            "groupId": 1034,
+            "Description": "Synthetic Oil",
+            "type": "P2"
+        },
+        "3693": {
+            "groupId": 1034,
+            "Description": "Fertilizer",
+            "type": "P2"
+        },
+        "3695": {
+            "groupId": 1034,
+            "Description": "Polytextiles",
+            "type": "P2"
+        },
+        "3697": {
+            "groupId": 1034,
+            "Description": "Silicate Glass",
+            "type": "P2"
+        },
+        "3725": {
+            "groupId": 1034,
+            "Description": "Livestock",
+            "type": "P2"
+        },
+        "3775": {
+            "groupId": 1034,
+            "Description": "Viral Agent",
+            "type": "P2"
+        },
+        "3828": {
+            "groupId": 1034,
+            "Description": "Construction Blocks",
+            "type": "P2"
+        },
+        "9832": {
+            "groupId": 1034,
+            "Description": "Coolant",
+            "type": "P2"
+        },
+        "9836": {
+            "groupId": 1034,
+            "Description": "Consumer Electronics",
+            "type": "P2"
+        },
+        "9830": {
+            "groupId": 1034,
+            "Description": "Rocket Fuel",
+            "type": "P2"
+        },
+        "9838": {
+            "groupId": 1034,
+            "Description": "Superconductors",
+            "type": "P2"
+        },
+        "9840": {
+            "groupId": 1034,
+            "Description": "Transmitter",
+            "type": "P2"
+        },
+        "9842": {
+            "groupId": 1034,
+            "Description": "Miniature Electronics",
+            "type": "P2"
+        },
+        "15317": {
+            "groupId": 1034,
+            "Description": "Genetically Enhanced Livestock",
+            "type": "P2"
+        },
+        "2344": {
+            "groupId": 1040,
+            "Description": "Condensates",
+            "type": "P3"
+        },
+        "2345": {
+            "groupId": 1040,
+            "Description": "Camera Drones",
+            "type": "P3"
+        },
+        "2346": {
+            "groupId": 1040,
+            "Description": "Synthetic Synapses",
+            "type": "P3"
+        },
+        "2348": {
+            "groupId": 1040,
+            "Description": "Gel-Matrix Biopaste",
+            "type": "P3"
+        },
+        "2349": {
+            "groupId": 1040,
+            "Description": "Supercomputers",
+            "type": "P3"
+        },
+        "2351": {
+            "groupId": 1040,
+            "Description": "Smartfab Units",
+            "type": "P3"
+        },
+        "2352": {
+            "groupId": 1040,
+            "Description": "Nuclear Reactors",
+            "type": "P3"
+        },
+        "2354": {
+            "groupId": 1040,
+            "Description": "Neocoms",
+            "type": "P3"
+        },
+        "2358": {
+            "groupId": 1040,
+            "Description": "Biotech Research Reports",
+            "type": "P3"
+        },
+        "2360": {
+            "groupId": 1040,
+            "Description": "Industrial Explosives",
+            "type": "P3"
+        },
+        "2361": {
+            "groupId": 1040,
+            "Description": "Hermetic Membranes",
+            "type": "P3"
+        },
+        "2366": {
+            "groupId": 1040,
+            "Description": "Hazmat Detection Systems",
+            "type": "P3"
+        },
+        "2367": {
+            "groupId": 1040,
+            "Description": "Cryoprotectant Solution",
+            "type": "P3"
+        },
+        "9834": {
+            "groupId": 1040,
+            "Description": "Guidance Systems",
+            "type": "P3"
+        },
+        "9846": {
+            "groupId": 1040,
+            "Description": "Planetary Vehicles",
+            "type": "P3"
+        },
+        "9848": {
+            "groupId": 1040,
+            "Description": "Robotics",
+            "type": "P3"
+        },
+        "12836": {
+            "groupId": 1040,
+            "Description": "Transcranial Microcontrollers",
+            "type": "P3"
+        },
+        "17136": {
+            "groupId": 1040,
+            "Description": "Ukomi Superconductors",
+            "type": "P3"
+        },
+        "17392": {
+            "groupId": 1040,
+            "Description": "Data Chips",
+            "type": "P3"
+        },
+        "17898": {
+            "groupId": 1040,
+            "Description": "High-Tech Transmitters",
+            "type": "P3"
+        },
+        "28974": {
+            "groupId": 1040,
+            "Description": "Vaccines",
+            "type": "P3"
+        },
+        "2867": {
+            "groupId": 1041,
+            "Description": "Broadcast Node",
+            "type": "P4"
+        },
+        "2868": {
+            "groupId": 1041,
+            "Description": "Integrity Response Drones",
+            "type": "P4"
+        },
+        "2869": {
+            "groupId": 1041,
+            "Description": "Nano-Factory",
+            "type": "P4"
+        },
+        "2870": {
+            "groupId": 1041,
+            "Description": "Organic Mortar Applicators",
+            "type": "P4"
+        },
+        "2871": {
+            "groupId": 1041,
+            "Description": "Recursive Computing Module",
+            "type": "P4"
+        },
+        "2872": {
+            "groupId": 1041,
+            "Description": "Self-Harmonizing Power Core",
+            "type": "P4"
+        },
+        "2875": {
+            "groupId": 1041,
+            "Description": "Sterile Conduits",
+            "type": "P4"
+        },
+        "2876": {
+            "groupId": 1041,
+            "Description": "Wetware Mainframe",
+            "type": "P4"
+        }
+    }
+}
