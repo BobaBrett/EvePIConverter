@@ -95,7 +95,7 @@ if ($choice -and $planetChoices -contains $choice) {
             $material = $mappings.materials.($_.T.ToString())
             $material.type -eq "P1"
         }
-        $Oldp1Products = $p1Products | Select -Unique T
+        $Oldp1Products = $Oldp1Products | Select -Unique T
         
         if ($p2Products) {
             # 4. For each P2 product:
@@ -133,14 +133,16 @@ if ($choice -and $planetChoices -contains $choice) {
                     Write-Output "Updated P2 product: $($mappings.materials.$newP2Id.description)"
                 }
 
+                $p2Schematic = $schematics.SchematicTypeMap.PSObject.Properties | 
+                Where-Object { $_.Value.Where({$_.typeID -eq  $newP2Id -and $_.isInput -eq 0}) }
+
                 if ($p2Schematic) {
                     # 5. For each required P1:
                     # - Show P1 requirements
                     # - Find related P0 resources
                     # - Update entire production chain
                     # Find related P1s in schematic
-                    $p2Schematic = $schematics.SchematicTypeMap.PSObject.Properties | 
-                        Where-Object { $_.Value.Where({$_.typeID -eq  $newP2Id -and $_.isInput -eq 0}) }
+       
                 
                     if ($p2Schematic) {
                         Write-Output "`nRequired P1 replacements:"
@@ -206,7 +208,7 @@ if ($choice -and $planetChoices -contains $choice) {
                 }
             }
         }
-        
+         
         # Show available raw resources on new planet
         Write-Output "`nAvailable P0 Resources:"
         foreach ($resource in $newPlanetInfo.resources) {
